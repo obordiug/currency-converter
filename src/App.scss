@@ -1,3 +1,36 @@
-.starter {
-  font-size: 18px;
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 600px;
+  border: 1px solid #65b7ee;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient(90deg, #b9deed, #65b7ee);
+    margin-bottom: 70px;
+  }
+
+  &__content {
+    margin-bottom: 70px;
+  }
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  background-image: url(../src/svg/currency_exchange_icon.svg);
+  margin-left: 50px;
+}
+
+.rate {
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  margin-right: 50px;
 }
