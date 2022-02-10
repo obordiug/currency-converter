@@ -1,10 +1,9 @@
-# Currency Converter
+# React TypeScript Starter Pack
 
-The header displays the current exchange rate (USD, EUR) against UAH.
-The current exchange rate comes from the public API.
+To use this template click `Use this template`
 
-Created a component with conversion (in both directions).
+### Available Scripts
 
-Used React, Typescript, Javascript, Sass(SCSS), HTML
+`Deploy` - available to deploy your application to gh-pages
 
-[DEMO LINK]()
+`SCSS Preprocessor` - available to write your styles with modern style language
